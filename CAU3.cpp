@@ -33,8 +33,8 @@ void sub2(){
     for(ll i =0;i<n;i++){
         b[a[i]]=1;
     }
-    for(ll i =0;i<n-2;i++){
-        for(ll j =i+1;j<n-1;j++){
+    for(ll i =0;i<n-1;i++){
+        for(ll j =i+1;j<n;j++){
             ll x = a[i]*a[i]+a[j]*a[j];
             ll m = sqrt(x);
             if(m*m==x){
@@ -51,8 +51,8 @@ void sub3(){
     for(ll i =0;i<n;i++){
         b[a[i]]=1;
     }
-    for(ll i =0;i<n-2;i++){
-        for(ll j =i+1;j<n-1;j++){
+    for(ll i =0;i<3*1e3-1;i++){
+        for(ll j =i+1;j<3*1e3;j++){
             ll x = a[i]*a[i]+a[j]*a[j];
             ll m = sqrt(x);
             if(m*m==x){
