@@ -49,7 +49,7 @@ void sub3(){
     ll kq =0;
     vector<ll> b(3e3+1,0);
     for(ll i =0;i<n;i++){
-        b[a[i]]=1;
+        b[a[i]]++;
     }
     for(ll i =1i<3e3;i++){
         for(ll j =i+1;j<=3e3;j++){
