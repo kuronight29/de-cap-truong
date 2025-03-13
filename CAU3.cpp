@@ -56,7 +56,7 @@ void sub3(){
             ll x = i*i+j*j;
             ll m = sqrt(x);
             if(m*m==x&&m<=3e3){
-                kq+=b[m];
+                kq+=b[m]*b[i]*b[j];
             }
         }
     }
