@@ -3,7 +3,7 @@
     @github kuronight29
 */
 #include <bits/stdc++.h>
-#define taskname "CAU3"
+#define taskname "cpp"
 #define ll long long
 #define fi first
 #define se second
