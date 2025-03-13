@@ -44,18 +44,18 @@ void sub2(){
     }
     cout << kq;
 }
-// n<=2*1e4,a[i]<=3*1e3
+// n<=2e4,a[i]<=3e3
 void sub3(){
     ll kq =0;
-    vector<ll> b(3*1e3+1,0);
+    vector<ll> b(3e3+1,0);
     for(ll i =0;i<n;i++){
         b[a[i]]=1;
     }
-    for(ll i =0;i<3*1e3-1;i++){
-        for(ll j =i+1;j<3*1e3;j++){
-            ll x = a[i]*a[i]+a[j]*a[j];
+    for(ll i =1i<3e3;i++){
+        for(ll j =i+1;j<=3e3;j++){
+            ll x = i*i+j*j;
             ll m = sqrt(x);
-            if(m*m==x){
+            if(m*m==x&&m<=3e3){
                 kq+=b[m];
             }
         }

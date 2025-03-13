@@ -33,6 +33,9 @@ int simp() {
                 a.pb(ss.str());
                 n /= i;
             }
+            if(i*i>n){
+                break;
+            }
         }
         if(n > 1){
             stringstream ss;
@@ -41,8 +44,6 @@ int simp() {
         }
     }
     sort(a.begin(), a.end(), cmp);
-    for(ll i = 0; i < a.size(); i++){
-        cout << a[i];
-        }
+    for(ll i = 0; i < a.size(); i++)  cout << a[i];
     return 0;
 }
