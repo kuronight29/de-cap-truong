@@ -51,7 +51,7 @@ void sub3(){
     for(ll i =0;i<n;i++){
         b[a[i]]++;
     }
-    for(ll i =1i<3e3;i++){
+    for(ll i =1;i<3e3;i++){
         for(ll j =i+1;j<=3e3;j++){
             ll x = i*i+j*j;
             ll m = sqrt(x);
